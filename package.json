@@ -1,0 +1,19 @@
+{
+  "name": "react-native-scale-image",
+  "version": "1.0.0",
+  "description": "react native 根据样式(width、maxWidth、minWidth、height、maxHeight、minHeight)自动适配等比缩放图片,无需都设置宽高度",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thisXY/react-native-scale-image.git"
+  },
+  "homepage": "https://github.com/thisXY/react-native-scale-image#readme",
+  "keywords": [
+    "react native scale image",
+    "image",
+    "等比缩放图片"
+  ],
+  "main": "src/index.js",
+  "author": "XY",
+  "email": "543230241@qq.com"
+}
