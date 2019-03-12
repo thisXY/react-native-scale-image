@@ -141,7 +141,7 @@ class ScaleImage extends Component {
         {...this.props}
         ref={this.props.imageRef}
         source={this.props.resizeMode === 'stretch' && (!this.state.imageWidth || !this.state.imageHeight) ? null : this.props.source}
-        style={[styles.container, this.props.style, imageStyle]}
+        style={[this.props.style, imageStyle]}
       />
     );
   }
