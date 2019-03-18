@@ -23,7 +23,7 @@ class ScaleImage extends Component {
     style: null,
     imageRef: ref => ref,
     resizeMode: 'stretch',
-    source: null,
+    source: {},
   }
 
   constructor(props) {
